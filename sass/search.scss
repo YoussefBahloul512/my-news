@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+@import '_variable';
+@import './_mixins.scss';
+
+/*my try in a txt file */
+
+.search {
+    &-form {
+        margin-top: 100px;
+
+        input {
+            width: 80%;
+            /* 75% to 80 by me*/
+            padding: 8px 15px;
+            border: 1px solid $gray-color;
+            border-radius: 5px;
+        }
+
+        .button {
+            @include button($main-color, $white-color, $main-color);
+            font-size: 20px;
+            margin-right: 15px;
+        }
+    }
+
+    &-line {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        span {
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        select {
+            padding: 10px 15px;
+            /* 5px to 10px by me */
+            border: 1px solid $gray-color;
+            border-radius: 5px;
+        }
+    }
+
+    &-articles {
+        .article-card {
+
+            padding: 25px;
+            border-bottom: 1px dotted $gray-color;
+
+            .article-link {
+                &:hover {
+                    color: $black-color;
+
+                    h4 {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            h4 {
+                font-size: 20px;
+                /* 24 to 20 by me */
+            }
+
+            p {
+                font-size: 16px;
+                margin-top: 10px;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+                display: -webkit-box !important;
+                -webkit-line-clamp: 3 !important;
+                /* numbers of line to show */
+                line-clamp: 3 !important;
+                -webkit-box-orient: vertical;
+            }
+
+            time {
+                color: $gray-color;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.more-results {
+    margin-top: 75px;
+
+    .button {
+        @include button($main-color, $white-color, $main-color);
+        font-size: 20px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .search {
+        &-form {
+            input {
+                width: 73%;
+                /* 60 to 73 by me*/
+            }
+        }
+
+        &-articles {
+            .article-card {
+                padding: 20px;
+
+                h4 {
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 14px;
+                    margin-top: 0;
+                }
+
+                time {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .more-results {
+        .button {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    // by me
+    .search {
+        &-articles {
+            .article-card {
+                h4 {
+                    font-size: 20px;
+                    padding-top: 10px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+
+                time {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

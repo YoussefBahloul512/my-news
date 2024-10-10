@@ -1,0 +1,11 @@
+npm i -g @stoplight/prism-cli
+
+open any file with this code: prism mock ./db.yaml
+
+customElements.define("word-count", WordCount, { extends: "p" });
+
+
+    <slider-components text="Hello to HsoubAcademy"></slider-components> <!--look at js folder to understand-->
+
+    <script src="./js/indexPage/config.js"></script>
+    <script src="./js/indexPage/slider-components.js"></script>

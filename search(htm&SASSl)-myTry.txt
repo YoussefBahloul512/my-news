@@ -1,0 +1,250 @@
+       <!- html ->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="search-form">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 w-70" type="search" placeholder=" البحث " aria-label="Search"
+                                style="box-shadow: none !important;"> <!--Styel by me-->
+                            <a href="./search.html" class="button"> ابحث </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    
+                    <hr class="my-5">
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-6">
+                    <section class="suggested-stories mt-3">
+                        <div class="stories">
+                            <a href="#" class="article-link">
+                                <div class="story-card mt-5">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="./images/picture-16.jpg" alt="" class="   mb-3">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-information">
+                                                <div class="card-title">
+                                                    <h5> هذا النص هو مثال لنص يمكن استبداله في نفس المساحة. </h5>
+                                                </div>
+                                                <div class="card-paragraph">
+                                                    <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. </p>
+                                                </div>
+                                                <div class="card-time">
+                                                    <time datetime="03-10-2024">03/10/2024</time>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <section class="suggested-stories mt-3">
+                        <div class="stories">
+                            <a href="#" class="article-link">
+                                <div class="story-card mt-5">
+                                    <div class="row"> <!-- Remove gutter between columns -->
+                                        <div class="col-md-5">
+                                            <img src="./images/picture-15.jpg" alt="story image" class="   story-img">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-information p-3">
+                                                <div class="card-title">
+                                                    <h5> هذا النص هو مثال لنص يمكن استبداله في نفس المساحة. </h5>
+                                                </div>
+                                                <div class="card-paragraph">
+                                                    <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. </p>
+                                                </div>
+                                                <div class="card-time">
+                                                    <time datetime="03-10-2024">03/10/2024</time>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="article-link">
+                                <div class="story-card mt-5">
+                                    <div class="row "> <!-- Remove gutter between columns -->
+                                        <div class="col-md-5">
+                                            <img src="./images/picture-16.jpg" alt="story image" class="   story-img">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-information p-3">
+                                                <div class="card-title">
+                                                    <h5> هذا النص هو مثال لنص يمكن استبداله في نفس المساحة. </h5>
+                                                </div>
+                                                <div class="card-paragraph">
+                                                    <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. </p>
+                                                </div>
+                                                <div class="card-time">
+                                                    <time datetime="03-10-2024">03/10/2024</time>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="article-link">
+                                <div class="story-card mt-5">
+                                    <div class="row  "> <!-- Remove gutter between columns -->
+                                        <div class="col-md-5">
+                                            <img src="./images/picture-16.jpg" alt="story image" class="   story-img">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-information p-3">
+                                                <div class="card-title">
+                                                    <h5> هذا النص هو مثال لنص يمكن استبداله في نفس المساحة. </h5>
+                                                </div>
+                                                <div class="card-paragraph">
+                                                    <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. </p>
+                                                </div>
+                                                <div class="card-time">
+                                                    <time datetime="03-10-2024">03/10/2024</time>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="article-link">
+                                <div class="story-card mt-5">
+                                    <div class="row  "> <!-- Remove gutter between columns -->
+                                        <div class="col-md-5">
+                                            <img src="./images/picture-16.jpg" alt="story image" class="   story-img">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-information p-3">
+                                                <div class="card-title">
+                                                    <h5> هذا النص هو مثال لنص يمكن استبداله في نفس المساحة. </h5>
+                                                </div>
+                                                <div class="card-paragraph">
+                                                    <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. </p>
+                                                </div>
+                                                <div class="card-time">
+                                                    <time datetime="03-10-2024">03/10/2024</time>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="article-link">
+                                <div class="story-card mt-5">
+                                    <div class="row  "> <!-- Remove gutter between columns -->
+                                        <div class="col-md-5">
+                                            <img src="./images/picture-16.jpg" alt="story image" class="   story-img">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-information p-3">
+                                                <div class="card-title">
+                                                    <h5> هذا النص هو مثال لنص يمكن استبداله في نفس المساحة. </h5>
+                                                </div>
+                                                <div class="card-paragraph">
+                                                    <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. </p>
+                                                </div>
+                                                <div class="card-time">
+                                                    <time datetime="03-10-2024">03/10/2024</time>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="article-link">
+                                <div class="story-card mt-5">
+                                    <div class="row  "> <!-- Remove gutter between columns -->
+                                        <div class="col-md-5">
+                                            <img src="./images/picture-16.jpg" alt="story image" class="   story-img">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-information p-3">
+                                                <div class="card-title">
+                                                    <h5> هذا النص هو مثال لنص يمكن استبداله في نفس المساحة. </h5>
+                                                </div>
+                                                <div class="card-paragraph">
+                                                    <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. </p>
+                                                </div>
+                                                <div class="card-time">
+                                                    <time datetime="03-10-2024">03/10/2024</time>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="article-link">
+                                <div class="story-card mt-5">
+                                    <div class="row  "> <!-- Remove gutter between columns -->
+                                        <div class="col-md-5">
+                                            <img src="./images/picture-16.jpg" alt="story image" class="   story-img">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-information p-3">
+                                                <div class="card-title">
+                                                    <h5> هذا النص هو مثال لنص يمكن استبداله في نفس المساحة. </h5>
+                                                </div>
+                                                <div class="card-paragraph">
+                                                    <p> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. </p>
+                                                </div>
+                                                <div class="card-time">
+                                                    <time datetime="03-10-2024">03/10/2024</time>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            
+        </div>
+
+
+        // SASS
+
+    @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+    @import '_variable';
+    @import './_mixins.scss';
+
+    header{
+        margin-bottom: 100px;
+    }
+
+    .search-form{
+        input{
+            width: 50%;
+        }
+        .button {
+            @include button($main-color, $white-color, $main-color);
+            font-size: 16px;
+        }
+    }
+
+    .suggested-stories{
+        .stories{
+            .article-link{
+                .story-card{
+                    .story-img {
+                        object-fit: cover; /* يجعل الصورة تتناسب بشكل جيد مع حجم الحاوية */
+                    }
+                }
+                .col-sm-8{
+                    margin-right: 100px;
+                }
+            }
+        }
+    }
